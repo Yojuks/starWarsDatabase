@@ -62,7 +62,6 @@ export default class Header extends Component {
   };
 
   click = (id) => {
-    console.log(true);
     this.setState(() => ({
       currentActive: id,
     }));
